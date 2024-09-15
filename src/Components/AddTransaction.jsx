@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { GlobalContext } from "../context/GlobalState";
-import e from "cors";
+
 const AddTransaction = () => {
   const { addTsx } = useContext(GlobalContext);
   const [text, setText] = useState("");
